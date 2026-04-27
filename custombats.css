@@ -1,4 +1,8 @@
 /* Centers the whole banner */
+body {
+    background: #bfbaba;   /* light background to make the banner pop */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .banner-container {
     width: 1200px;          /* matches your image size */
     margin: 30px auto;      /* centers it on the page */
