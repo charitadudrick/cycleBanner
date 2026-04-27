@@ -1,0 +1,23 @@
+/* Centers the whole banner */
+.banner-container {
+    width: 1200px;          /* matches your image size */
+    margin: 30px auto;      /* centers it on the page */
+    text-align: center;
+}
+
+/* Styles the banner image */
+#adBanner {
+    width: 1200px;
+    height: 400px;
+    object-fit: contain;    /* shows the whole bat perfectly */
+    background: #000;       /* clean frame behind transparent areas */
+    border-radius: 10px;    /* smooth corners */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.45);  /* subtle depth */
+    transition: 0.3s ease;  /* smooth hover effect */
+}
+
+/* Hover effect to make it feel interactive */
+#adBanner:hover {
+    filter: brightness(1.12);
+}
+
